@@ -40,6 +40,5 @@ export function getSimpleAccount(
     }
     return null;
   };
-
   return sw;
 }

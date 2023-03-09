@@ -12,6 +12,5 @@ export default async function main() {
     config.simpleAccountFactory
   );
   const address = await accountAPI.getCounterFactualAddress();
-
   console.log(`SimpleAccount address: ${address}`);
 }
